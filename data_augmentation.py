@@ -28,6 +28,6 @@ for classifi in os.listdir('./data/'):
         # rotate 180 degree
         img = cv2.rotate(img,cv2.ROTATE_90_CLOCKWISE)
         cv2.imwrite(class_dir+'180'+image,img)
-        # rotate 90 degree
+        # rotate 270 degree
         img = cv2.rotate(img,cv2.ROTATE_90_CLOCKWISE)
         cv2.imwrite(class_dir+'270'+image,img)
