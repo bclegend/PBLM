@@ -3,7 +3,7 @@ import os
 
 save_dir = './preprocess_data/'
 
-image_size =(1024,1024)
+image_size =(224,224)
 
 
 if not os.path.isdir(save_dir):
